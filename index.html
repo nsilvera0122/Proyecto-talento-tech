@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Energía Solar en Colombia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+    <div class="overlay">
+        <h1>Energía Fotovoltaica</h1>
+        <p>El futuro sostenible de Colombia ☀️</p>
+        <button onclick="scrollToSection()">Explorar</button>
+    </div>
+</header>
+
+<!-- NAV -->
+<nav>
+    <a href="#info">¿Qué es?</a>
+    <a href="#beneficios">Beneficios</a>
+    <a href="#colombia">Colombia</a>
+    <a href="#historia">Historia</a>
+</nav>
+
+<!-- INFO -->
+<section id="info" class="section">
+    <div class="container">
+        <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231">
+        <div>
+            <h2>¿Qué es la energía fotovoltaica?</h2>
+            <p>Convierte la luz solar en electricidad mediante paneles solares.</p>
+        </div>
+    </div>
+</section>
+
+<!-- BENEFICIOS -->
+<section id="beneficios" class="section dark">
+    <h2>Beneficios</h2>
+    <div class="cards">
+        <div class="card">🌱 Energía limpia</div>
+        <div class="card">💰 Ahorro económico</div>
+        <div class="card">🔋 Renovable</div>
+    </div>
+</section>
+
+<!-- COLOMBIA -->
+<section id="colombia" class="section">
+    <div class="container">
+        <div>
+            <h2>Desarrollo en Colombia</h2>
+            <p>Impulsado por la Ley 1715 y proyectos solares en regiones como La Guajira.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1">
+    </div>
+</section>
+
+<!-- HISTORIA -->
+<section id="historia" class="section dark">
+    <h2>Historia y evolución</h2>
+    <div class="timeline">
+        <div class="timeline-item">
+            <h3>1839</h3>
+            <p>Descubrimiento del efecto fotovoltaico.</p>
+        </div>
+        <div class="timeline-item">
+            <h3>1980</h3>
+            <p>Uso en zonas rurales.</p>
+        </div>
+        <div class="timeline-item">
+            <h3>2014</h3>
+            <p>Ley 1715 impulsa energías renovables.</p>
+        </div>
+        <div class="timeline-item">
+            <h3>Actualidad</h3>
+            <p>Crecimiento de energía solar en Colombia.</p>
+        </div>
+    </div>
+</section>
+
+<!-- GRAFICA -->
+<section class="section">
+    <h2>Capacidad Solar en Colombia</h2>
+    <canvas id="graficaSolar"></canvas>
+</section>
+
+<!-- MAPA -->
+<section class="section dark">
+    <h2>Zonas solares en Colombia</h2>
+    <div class="mapa">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Mapa_de_radiacion_solar_en_Colombia.png">
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>Proyecto Nilson Silvera Consuegra</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
